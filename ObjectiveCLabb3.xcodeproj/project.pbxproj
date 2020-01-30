@@ -16,6 +16,11 @@
 		E24BDD8C23D59602000C8CFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E24BDD8B23D59602000C8CFE /* main.m */; };
 		E24BDD9623D59602000C8CFE /* ObjectiveCLabb3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E24BDD9523D59602000C8CFE /* ObjectiveCLabb3Tests.m */; };
 		E24BDDA123D59602000C8CFE /* ObjectiveCLabb3UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E24BDDA023D59602000C8CFE /* ObjectiveCLabb3UITests.m */; };
+		E253708F23DEEEBC007D2FC3 /* TodoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E253708E23DEEEBC007D2FC3 /* TodoTableViewCell.m */; };
+		E2601A6423D5ABBC007DE0D8 /* TodoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2601A6323D5ABBC007DE0D8 /* TodoViewController.m */; };
+		E2601A6723D5B545007DE0D8 /* AddItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2601A6623D5B545007DE0D8 /* AddItemViewController.m */; };
+		E2AF264B23D6E792003C5886 /* TodoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AF264A23D6E792003C5886 /* TodoItem.m */; };
+		E2AF264E23D77743003C5886 /* OpenTodoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AF264D23D77743003C5886 /* OpenTodoItemViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +59,16 @@
 		E24BDD9C23D59602000C8CFE /* ObjectiveCLabb3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectiveCLabb3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E24BDDA023D59602000C8CFE /* ObjectiveCLabb3UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCLabb3UITests.m; sourceTree = "<group>"; };
 		E24BDDA223D59602000C8CFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E253708D23DEEEBC007D2FC3 /* TodoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodoTableViewCell.h; sourceTree = "<group>"; };
+		E253708E23DEEEBC007D2FC3 /* TodoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodoTableViewCell.m; sourceTree = "<group>"; };
+		E2601A6223D5ABBC007DE0D8 /* TodoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodoViewController.h; sourceTree = "<group>"; };
+		E2601A6323D5ABBC007DE0D8 /* TodoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodoViewController.m; sourceTree = "<group>"; };
+		E2601A6523D5B545007DE0D8 /* AddItemViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddItemViewController.h; sourceTree = "<group>"; };
+		E2601A6623D5B545007DE0D8 /* AddItemViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddItemViewController.m; sourceTree = "<group>"; };
+		E2AF264923D6E792003C5886 /* TodoItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodoItem.h; sourceTree = "<group>"; };
+		E2AF264A23D6E792003C5886 /* TodoItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodoItem.m; sourceTree = "<group>"; };
+		E2AF264C23D77743003C5886 /* OpenTodoItemViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenTodoItemViewController.h; sourceTree = "<group>"; };
+		E2AF264D23D77743003C5886 /* OpenTodoItemViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenTodoItemViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +126,16 @@
 				E24BDD7F23D59601000C8CFE /* ViewController.h */,
 				E24BDD8023D59601000C8CFE /* ViewController.m */,
 				E24BDD8223D59601000C8CFE /* Main.storyboard */,
+				E253708D23DEEEBC007D2FC3 /* TodoTableViewCell.h */,
+				E253708E23DEEEBC007D2FC3 /* TodoTableViewCell.m */,
+				E2AF264923D6E792003C5886 /* TodoItem.h */,
+				E2AF264A23D6E792003C5886 /* TodoItem.m */,
+				E2601A6223D5ABBC007DE0D8 /* TodoViewController.h */,
+				E2601A6323D5ABBC007DE0D8 /* TodoViewController.m */,
+				E2AF264C23D77743003C5886 /* OpenTodoItemViewController.h */,
+				E2AF264D23D77743003C5886 /* OpenTodoItemViewController.m */,
+				E2601A6523D5B545007DE0D8 /* AddItemViewController.h */,
+				E2601A6623D5B545007DE0D8 /* AddItemViewController.m */,
 				E24BDD8523D59602000C8CFE /* Assets.xcassets */,
 				E24BDD8723D59602000C8CFE /* LaunchScreen.storyboard */,
 				E24BDD8A23D59602000C8CFE /* Info.plist */,
@@ -268,8 +293,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E24BDD8123D59601000C8CFE /* ViewController.m in Sources */,
+				E2AF264B23D6E792003C5886 /* TodoItem.m in Sources */,
+				E2601A6723D5B545007DE0D8 /* AddItemViewController.m in Sources */,
 				E24BDD7B23D59601000C8CFE /* AppDelegate.m in Sources */,
+				E253708F23DEEEBC007D2FC3 /* TodoTableViewCell.m in Sources */,
 				E24BDD8C23D59602000C8CFE /* main.m in Sources */,
+				E2AF264E23D77743003C5886 /* OpenTodoItemViewController.m in Sources */,
+				E2601A6423D5ABBC007DE0D8 /* TodoViewController.m in Sources */,
 				E24BDD7E23D59601000C8CFE /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
